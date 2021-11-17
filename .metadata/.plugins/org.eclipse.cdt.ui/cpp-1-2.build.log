@@ -1,1 +1,5 @@
-Info: Nothing to build for cpp-1-2
+20:14:19 **** クリーンのみのビルド of configuration Debug for project cpp-1-2 ****
+rm -rf cpp-1-2.exe src/cpp-1-2.d src/cpp-1-2.o 
+
+20:14:20 Build Finished (took 142ms)
+

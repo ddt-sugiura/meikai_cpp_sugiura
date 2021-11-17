@@ -254,3 +254,141 @@ g++ -o cpp-2-2.exe "src\\cpp-2-2.o"
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-2-3.o" "..\\src\\cpp-2-3.cpp" 
 g++ -o cpp-2-3.exe "src\\cpp-2-3.o" 
+20:03:40 **** Rebuild of configuration Debug for project cpp-2-4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-2-4.o" "..\\src\\cpp-2-4.cpp" 
+g++ -o cpp-2-4.exe "src\\cpp-2-4.o" 
+20:03:50 **** インクリメンタル・ビルド of configuration Debug for project cpp-2-4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-2-4.o" "..\\src\\cpp-2-4.cpp" 
+g++ -o cpp-2-4.exe "src\\cpp-2-4.o" 
+Info: Nothing to build for cpp-2-4
+Info: Nothing to build for ccp-1-5
+Info: Nothing to build for cpp-1-10
+Info: Nothing to build for cpp-1-11
+Info: Nothing to build for cpp-1-12
+Info: Nothing to build for cpp-1-13
+Info: Nothing to build for cpp-1-14
+Info: Nothing to build for cpp-1-2
+20:07:23 **** インクリメンタル・ビルド of configuration Debug for project cpp-1-3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-1-3.o" "..\\src\\cpp-1-3.cpp" 
+..\src\cpp-1-3.cpp: In function `int main()':
+..\src\cpp-1-3.cpp:14: error: expected `;' before '}' token
+Info: Nothing to build for cpp-1-4
+Info: Nothing to build for cpp-1-6
+Info: Nothing to build for cpp-1-7
+Info: Nothing to build for cpp-1-8
+Info: Nothing to build for cpp-1-9
+Info: Nothing to build for cpp-2-1
+Info: Nothing to build for cpp-2-2
+Info: Nothing to build for cpp-2-3
+Info: Nothing to build for cpp-2-4
+20:07:25 **** Rebuild of configuration Debug for project cpp-2-5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-2-5.o" "..\\src\\cpp-2-5.cpp" 
+g++ -o cpp-2-5.exe "src\\cpp-2-5.o" 
+20:07:25 **** インクリメンタル・ビルド of configuration Debug for project test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.cpp" 
+..\src\test.cpp: In function `int main()':
+..\src\test.cpp:13: error: `cout' was not declared in this scope
+20:07:37 **** インクリメンタル・ビルド of configuration Debug for project cpp-2-5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-2-5.o" "..\\src\\cpp-2-5.cpp" 
+g++ -o cpp-2-5.exe "src\\cpp-2-5.o" 
+20:09:07 **** インクリメンタル・ビルド of configuration Debug for project cpp-2-4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-2-4.o" "..\\src\\cpp-2-4.cpp" 
+g++ -o cpp-2-4.exe "src\\cpp-2-4.o" 
+20:13:06 **** Rebuild of configuration Debug for project cpp-2-6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-2-6.o" "..\\src\\cpp-2-6.cpp" 
+g++ -o cpp-2-6.exe "src\\cpp-2-6.o" 
+20:13:13 **** インクリメンタル・ビルド of configuration Debug for project cpp-2-6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-2-6.o" "..\\src\\cpp-2-6.cpp" 
+g++ -o cpp-2-6.exe "src\\cpp-2-6.o" 
+Info: Nothing to build for cpp-2-6
+20:13:55 **** インクリメンタル・ビルド of configuration Debug for project cpp-2-6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-2-6.o" "..\\src\\cpp-2-6.cpp" 
+g++ -o cpp-2-6.exe "src\\cpp-2-6.o" 
+C:\pleiades-4.6.3-cpp-win-32bit-jre_20170422 (1)\pleiades\eclipse\mingw\bin\..\lib\gcc\mingw32\3.4.5\..\..\..\..\mingw32\bin\ld.exe: cannot open output file cpp-2-6.exe: Permission denied
+collect2: ld returned 1 exit status
+20:14:18 **** クリーンのみのビルド of configuration Debug for project ccp-1-5 ****
+rm -rf src/ccp-1-5.d ccp-1-5.exe src/ccp-1-5.o 
+20:14:19 **** クリーンのみのビルド of configuration Debug for project cpp-1-10 ****
+rm -rf src/cpp-1-10.o src/cpp-1-10.d cpp-1-10.exe 
+20:14:19 **** クリーンのみのビルド of configuration Debug for project cpp-1-11 ****
+rm -rf src/cpp-1-11.d cpp-1-11.exe src/cpp-1-11.o 
+20:14:19 **** クリーンのみのビルド of configuration Debug for project cpp-1-12 ****
+rm -rf src/cpp-1-12.d src/cpp-1-12.o cpp-1-12.exe 
+20:14:19 **** クリーンのみのビルド of configuration Debug for project cpp-1-13 ****
+rm -rf src/cpp-1-13.o src/cpp-1-13.d cpp-1-13.exe 
+20:14:19 **** クリーンのみのビルド of configuration Debug for project cpp-1-14 ****
+rm -rf src/cpp-1-14.d src/cpp-1-14.o cpp-1-14.exe 
+20:14:19 **** クリーンのみのビルド of configuration Debug for project cpp-1-2 ****
+rm -rf cpp-1-2.exe src/cpp-1-2.d src/cpp-1-2.o 
+20:14:20 **** クリーンのみのビルド of configuration Debug for project cpp-1-3 ****
+rm -rf src/cpp-1-3.o cpp-1-3.exe src/cpp-1-3.d 
+20:14:20 **** クリーンのみのビルド of configuration Debug for project cpp-1-4 ****
+rm -rf src/cpp-1-4.o src/cpp-1-4.d cpp-1-4.exe 
+20:14:20 **** クリーンのみのビルド of configuration Debug for project cpp-1-6 ****
+rm -rf src/cpp-1-6.o cpp-1-6.exe src/cpp-1-6.d 
+20:14:20 **** クリーンのみのビルド of configuration Debug for project cpp-1-7 ****
+rm -rf src/cpp-1-7.d cpp-1-7.exe src/cpp-1-7.o 
+20:14:20 **** クリーンのみのビルド of configuration Debug for project cpp-1-8 ****
+rm -rf src/cpp-1-8.d cpp-1-8.exe src/cpp-1-8.o 
+20:14:20 **** クリーンのみのビルド of configuration Debug for project cpp-1-9 ****
+rm -rf src/cpp-1-9.o cpp-1-9.exe src/cpp-1-9.d 
+20:14:21 **** クリーンのみのビルド of configuration Debug for project cpp-2-1 ****
+rm -rf cpp-2-1.exe src/cpp-2-1.d src/cpp-2-1.o 
+20:14:21 **** クリーンのみのビルド of configuration Debug for project cpp-2-2 ****
+rm -rf src/cpp-2-2.d cpp-2-2.exe src/cpp-2-2.o 
+20:14:21 **** クリーンのみのビルド of configuration Debug for project cpp-2-3 ****
+rm -rf src/cpp-2-3.o src/cpp-2-3.d cpp-2-3.exe 
+20:14:21 **** クリーンのみのビルド of configuration Debug for project cpp-2-4 ****
+rm -rf src/cpp-2-4.o cpp-2-4.exe src/cpp-2-4.d 
+20:14:21 **** クリーンのみのビルド of configuration Debug for project cpp-2-5 ****
+rm -rf src/cpp-2-5.d cpp-2-5.exe src/cpp-2-5.o 
+20:14:21 **** クリーンのみのビルド of configuration Debug for project cpp-2-6 ****
+rm -rf src/cpp-2-6.o src/cpp-2-6.d cpp-2-6.exe 
+20:14:21 **** クリーンのみのビルド of configuration Debug for project test ****
+rm -rf test.exe src/test.o src/test.d 
+20:14:25 **** Rebuild of configuration Debug for project cpp-2-6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-2-6.o" "..\\src\\cpp-2-6.cpp" 
+g++ -o cpp-2-6.exe "src\\cpp-2-6.o" 
+Info: Nothing to build for cpp-2-6
+20:19:58 **** Rebuild of configuration Debug for project cpp-2-7 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-2-7.o" "..\\src\\cpp-2-7.cpp" 
+g++ -o cpp-2-7.exe "src\\cpp-2-7.o" 
+20:20:08 **** インクリメンタル・ビルド of configuration Debug for project cpp-2-7 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-2-7.o" "..\\src\\cpp-2-7.cpp" 
+g++ -o cpp-2-7.exe "src\\cpp-2-7.o" 
+Info: Nothing to build for cpp-2-7
+20:20:45 **** インクリメンタル・ビルド of configuration Debug for project cpp-2-7 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-2-7.o" "..\\src\\cpp-2-7.cpp" 
+g++ -o cpp-2-7.exe "src\\cpp-2-7.o" 
+20:27:22 **** Rebuild of configuration Debug for project cpp-2-8 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-2-8.o" "..\\src\\cpp-2-8.cpp" 
+g++ -o cpp-2-8.exe "src\\cpp-2-8.o" 
+20:27:35 **** インクリメンタル・ビルド of configuration Debug for project cpp-2-8 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-2-8.o" "..\\src\\cpp-2-8.cpp" 
+g++ -o cpp-2-8.exe "src\\cpp-2-8.o" 
+Info: Nothing to build for cpp-2-8
+20:30:50 **** Rebuild of configuration Debug for project cpp-2-9 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-2-9.o" "..\\src\\cpp-2-9.cpp" 
+g++ -o cpp-2-9.exe "src\\cpp-2-9.o" 
+20:30:55 **** インクリメンタル・ビルド of configuration Debug for project cpp-2-9 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-2-9.o" "..\\src\\cpp-2-9.cpp" 
+g++ -o cpp-2-9.exe "src\\cpp-2-9.o" 
+Info: Nothing to build for cpp-2-9

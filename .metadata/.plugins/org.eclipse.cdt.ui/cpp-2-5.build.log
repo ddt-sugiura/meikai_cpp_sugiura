@@ -1,0 +1,5 @@
+20:14:21 **** クリーンのみのビルド of configuration Debug for project cpp-2-5 ****
+rm -rf src/cpp-2-5.d cpp-2-5.exe src/cpp-2-5.o 
+
+20:14:21 Build Finished (took 132ms)
+

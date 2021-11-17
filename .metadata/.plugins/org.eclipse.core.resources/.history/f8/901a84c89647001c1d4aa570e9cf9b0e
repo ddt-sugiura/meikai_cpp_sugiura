@@ -1,0 +1,23 @@
+//============================================================================
+// Name        : cpp-2-4.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a;
+	cout << "aの値:";
+	cin >> a;
+	if (a > 0)
+		if(a%5 == 0)
+			cout << "その値は5で割り切れます。\n";
+		else
+			cout << "その値は5で割り切れません。\n";
+	else
+		cout << "その値は0です\n";
+}

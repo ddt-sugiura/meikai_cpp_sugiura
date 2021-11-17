@@ -1,1 +1,5 @@
-Info: Nothing to build for cpp-1-13
+20:14:19 **** クリーンのみのビルド of configuration Debug for project cpp-1-13 ****
+rm -rf src/cpp-1-13.o src/cpp-1-13.d cpp-1-13.exe 
+
+20:14:19 Build Finished (took 134ms)
+

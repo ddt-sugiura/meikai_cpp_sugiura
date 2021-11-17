@@ -1,8 +1,5 @@
-19:46:59 **** インクリメンタル・ビルド of configuration Debug for project cpp-1-3 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-1-3.o" "..\\src\\cpp-1-3.cpp" 
-..\src\cpp-1-3.cpp: In function `int main()':
-..\src\cpp-1-3.cpp:14: error: expected `;' before '}' token
+20:14:20 **** クリーンのみのビルド of configuration Debug for project cpp-1-3 ****
+rm -rf src/cpp-1-3.o cpp-1-3.exe src/cpp-1-3.d 
 
-19:46:59 Build Finished (took 278ms)
+20:14:20 Build Finished (took 130ms)
 

@@ -1,1 +1,5 @@
-Info: Nothing to build for cpp-1-6
+20:14:20 **** クリーンのみのビルド of configuration Debug for project cpp-1-6 ****
+rm -rf src/cpp-1-6.o cpp-1-6.exe src/cpp-1-6.d 
+
+20:14:20 Build Finished (took 134ms)
+

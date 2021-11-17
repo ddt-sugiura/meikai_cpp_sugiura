@@ -276,3 +276,6 @@ Binding(ALT+CTRL+C,
 
 !ENTRY org.eclipse.cdt.core 1 0 2021-11-17 20:31:36.136
 !MESSAGE Indexed 'cpp-2-10' (1 sources, 0 headers) in 0.005 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-11-17 20:37:44.998
+!MESSAGE Indexed 'cpp-2-11' (1 sources, 98 headers) in 2.4 sec: 11,542 declarations; 20,307 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

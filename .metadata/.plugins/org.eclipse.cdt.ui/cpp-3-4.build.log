@@ -1,0 +1,7 @@
+19:49:30 **** インクリメンタル・ビルド of configuration Debug for project cpp-3-4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpp-3-4.o" "..\\src\\cpp-3-4.cpp" 
+g++ -o cpp-3-4.exe "src\\cpp-3-4.o" 
+
+19:49:31 Build Finished (took 641ms)
+

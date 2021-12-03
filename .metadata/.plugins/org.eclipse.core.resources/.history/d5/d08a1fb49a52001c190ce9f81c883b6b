@@ -1,0 +1,36 @@
+//============================================================================
+// Name        : cpp-3-2.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+//============================================================================
+// Name        : cpp-3-2.cpp
+// Author      :
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+
+int main() {
+	srand(time(NULL));
+	int randumNo =10 + rand()%90;
+	int answerNo;
+	cout << "数値あてゲーム:";
+	cout << "二桁の数字を当てろ";
+	do{
+		cout << "答え:";
+		cin >> answerNo;
+		if (answerNo > randumNo)
+			cout << "もっと小さい\n";
+		else if (answerNo < randumNo)
+			cout << "もっと大きい\n";
+	}while(answerNo != randumNo);
+	cout << "正解です。\n";
+}

@@ -7,11 +7,11 @@ using namespace std;
   typeid‰‰Zq‚É‚æ‚Á‚Ä•\¦‚·‚éƒvƒƒOƒ‰ƒ€‚ğì¬‚¹‚æ*/
 int main() {
 	//floatŒ^‚Ì•Ï”‚ğéŒ¾
-	float TypeOf_F;
+	float TypeOf_F = 0;
 	//doubleŒ^‚Ì•Ï”‚ğéŒ¾
-	double TypeOf_D;
+	double TypeOf_D = 0;
 	//long doubleŒ^‚Ì•Ï”‚ğéŒ¾
-	long double TypeOf_L;
+	long double TypeOf_L = 0;
 	//floatŒ^‚ÌŒ^‚Ì–¼‘O‚ğo—Í
 	cout << "TypeOf_F‚ÌŒ^‚Ì–¼‘O: " << typeid(TypeOf_F).name() << "\n";
 	//doubleŒ^‚ÌŒ^‚Ì–¼‘O‚ğo—Í

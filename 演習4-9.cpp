@@ -21,15 +21,15 @@ int main() {
 	//3つ目の値を入力
 	std::cin >> AttributeValue[2];
 	//キャスト記法で平均値を算出
-	double AveOfCast = (double)(AttributeValue[0] + AttributeValue[1] + AttributeValue[2]) / 3;
+	double AveOfCast = (double)(AttributeValue[0] + AttributeValue[1] + AttributeValue[2]) / 3.0;
 	//計算結果を出力
 	std::cout << "キャスト記法で算出 : " << AveOfCast << "\n";
 	//関数的記法で平均値を算出
-	double AveOfFunction = double(AttributeValue[0] + AttributeValue[1] + AttributeValue[2]) / 3;
+	double AveOfFunction = double(AttributeValue[0] + AttributeValue[1] + AttributeValue[2]) / 3.0;
 	//計算結果を出力
 	std::cout << "関数的記法で算出 : " << AveOfFunction << "\n";
 	//static_cast演算子で平均値を算出
-	double AveOfStatic = static_cast<double>(AttributeValue[0] + AttributeValue[1] + AttributeValue[2]) / 3;
+	double AveOfStatic = static_cast<double>(AttributeValue[0] + AttributeValue[1] + AttributeValue[2]) / 3.0;
 	//計算結果を出力
 	std::cout << "static_cast演算子で算出 : " << AveOfStatic ;
 }

@@ -11,7 +11,6 @@ int main() {
 	const int LENGHT_INTEGER = 5;
 	//int型の配列を宣言
 	double arrengeCountDwon[LENGHT_INTEGER];
-	double elementDouble;
 	//要素数分のループを起こす
 	for (int i = 0; i < LENGHT_INTEGER; i++) {
 		//各要素に0.0を代入する

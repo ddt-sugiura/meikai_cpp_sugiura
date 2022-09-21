@@ -21,23 +21,23 @@ int main() {
 	//カウントが配列の要素数になるまでループ
 	while (countArrenge < LENGHT_INTEGER) {
 		//値の重複の確認結果を格納する変数
-		bool bookingFlg = true;
+		bool nonBookingFlg = true;
 		//値の重複の確認用カウント変数
 		int countCheck = 0;
 		//各要素に1～10のランダムな数値を宣言
 		int randNumeric = 1 + rand() % 10;
 		//値が代入されている配列の要素分はループできる様にする
-		while (countCheck < countArrenge && bookingFlg) {
+		while (countCheck < countArrenge && nonBookingFlg) {
 			//値が重複しているか確認する
 			if (arrengeRand[countCheck] == randNumeric) {
 				//重複している場合はループの中断も兼ねてflgをfalseにする
-				bookingFlg = false;
+				nonBookingFlg = false;
 			}
 			//確認用カウントを加算させる;
 			countCheck++;
 		}
 		//重複チェックをすべて通過できた場合に処理する
-		if (bookingFlg) {
+		if (nonBookingFlg) {
 			//宣言したランダムな値を配列に代入する
 			arrengeRand[countArrenge] = randNumeric;
 			//配列に要素を代入できた場合のみカウント変数を加算する

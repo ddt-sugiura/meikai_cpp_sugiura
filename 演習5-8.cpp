@@ -27,13 +27,13 @@ int main() {
 	//入れ替え用の配列を同じ条件で宣言
 	int arrengeShuf[LENGHT_INTEGER];
 	//配列の要素に入っていない固定値を宣言
-	const int DUMMY_INTEGER = 20;
+	const int DUMMY_INTEGER = - 1;
 	//whileループのカウントと配列の要素を指定する数字
 	int countShuf = 0;
 	//カウント変数が配列の要素数になるまでループする
 	while (countShuf < LENGHT_INTEGER) {
 		//0～9のランダムな数字を宣言
-		int randElement = rand() % 10;
+		int randElement = rand() % LENGHT_INTEGER;
 		//arrengeOrdeの指定されたランダムな要素が処理済み出ない場合に処理を行う
 		if (arrengeOrder[randElement] != DUMMY_INTEGER) {
 			//arrengeShufへ順に要素の値を代入していく

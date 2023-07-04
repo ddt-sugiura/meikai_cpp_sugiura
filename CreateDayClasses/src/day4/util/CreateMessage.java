@@ -33,7 +33,7 @@ public class CreateMessage extends ADays{
 	 * Day day：日付情報
 	 * return 日付情報の文字列
 	 */
-	private String toStringDay(Day day) {
+	public static String toStringDay(Day day) {
 		weekOfDays = new WeekOfDays(day);
 		return String.format("%04d年%02d月%02d日(%s)", day.getYear(), day.getMonth(), day.getDate(), weekOfDays.nameOfWeekDay);
 	}
@@ -74,7 +74,7 @@ public class CreateMessage extends ADays{
 
 
 		int resultDays = today.countCompareDays(otherDay);
-		String FixedMessege = this.toStringDay(otherDay) + "は";
+		String FixedMessege = toStringDay(otherDay) + "は";
 		String resultMessege;
 
 		if(resultDays == 0){

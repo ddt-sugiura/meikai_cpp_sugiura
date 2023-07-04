@@ -8,7 +8,7 @@ import day4.derivationday.ADays;
 import day4.util.ConstForDay;
 
 //本課題で指定されている日付情報クラス
-public class Day{
+public class Day {
 
 	private static int todayYear;
 	private static int todayMonth;
@@ -47,7 +47,7 @@ public class Day{
 	}
 
 	public Day(Day d) {
-		set(d.year, d.month, d.date);
+		setDay(d.year, d.month, d.date);
 	}
 
 	public int getYear() {
@@ -74,7 +74,7 @@ public class Day{
 		this.date = date;
 	}
 
-	public void set(int year, int month, int date) {
+	public void setDay(int year, int month, int date) {
 		this.year = year;
 		this.month = month;
 		this.date = date;
